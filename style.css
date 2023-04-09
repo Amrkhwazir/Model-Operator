@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-photo/circuit-cyberspace-closeup-with-neon-lights_90220-1200.jpg?w=996&t=st=1681040273~exp=1681040873~hmac=9ce9d5749b05c9914540f88d0f4d43f27123d38f34be05749385dde2f637d07f);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btnBox{
+    position: absolute;
+    left: 350px;
+    top: 200px;
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    border-radius: 18px;
+}
+.hidden{
+    display: none;
+}
+.btnBox h1{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 60px;
+    color: rgba(13, 36, 105, 0.897);
+    text-shadow: 1px 4px rgb(172, 172, 172);
+}
+.modelBtn{
+    cursor: pointer;
+    margin: 20px 200px;
+    width: 200px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(78, 178, 255);
+    color: white;
+    font-size: 20px;
+    transition: 0.8s all ease;
+}
+.modelBtn:hover{
+    border: 2px solid rgb(78, 178, 255);
+    background-color: white;
+    color: rgb(78, 178, 255);
+}
+.model-overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(84, 84, 84, 0.5);
+    display: none;
+    z-index: -1;
+}
+.showModel{
+    display: block;
+}
+.overlay{
+    position: absolute;
+    left: 320px;
+    top: 230px;
+    width: 660px;
+    height: 230px;
+    background-color: white;
+    display: none;
+}
+.overlay h1{
+    font-size: 65px;
+    text-align: center;
+    margin-top: 60px;
+    color: rgba(13, 36, 105, 0.897);
+}
+.overlay i{
+cursor: pointer;
+position: absolute;
+right: 5px;
+top: 5px;
+font-size: 55px;
+color: rgb(227, 6, 6);
+transition: 0.8s all ease;
+
+}
+.overlay i:hover{
+transform: rotate(180deg);
+}
+.showDisplay{
+    display: block;
+}
